@@ -55,9 +55,9 @@ func main() {
 
 	// slice_name := make([]type, length, capacity)
 	slice2 := make([]bool, 5, 10)
-	fmt.Printf("Before -> length  : %v\nCapacity: %v\n", len(slice2), cap(slice2))
+	fmt.Printf("-> length  : %v\nCapacity: %v\n", len(slice2), cap(slice2))
 	slice2 = append(slice2, true, true, true, true, true, true)
-	fmt.Printf("After  -> length  : %v\nCapacity: %v\n", len(slice2), cap(slice2))
+	fmt.Printf("-> length  : %v\nCapacity: %v\n", len(slice2), cap(slice2))
 	fmt.Printf("%#v\n", slice2)
 
 	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
